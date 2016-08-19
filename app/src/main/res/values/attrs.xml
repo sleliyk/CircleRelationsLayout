@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleLayout">
+        <attr name="cl_centerView" format="reference" />
+
+        <attr name="cl_angle" format="float" />
+        <attr name="cl_angleOffset" format="float" />
+
+        <attr name="cl_radius" format="dimension" />
+        <attr name="cl_radiusPreset">
+            <enum name="fitsSmallestChild" value="0" />
+            <enum name="fitsLargestChild" value="1" />
+        </attr>
+        <attr name="cl_direction">
+            <enum name="clockwise" value="-1" />
+            <enum name="counterClockwise" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="cv_icon" format="reference" />
+        <attr name="cv_strokeWidthSize" format="float" />
+        <attr name="cv_fillRadius" format="float" />
+        <attr name="cv_fillColor" format="color" />
+        <attr name="cv_fillColorSelected" format="color" />
+        <attr name="cv_strokeColor" format="color" />
+    </declare-styleable>
+</resources>
